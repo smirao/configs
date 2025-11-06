@@ -1,9 +1,0 @@
-defaults write NSGlobalDomain "_HIHideMenuBar" -bool true
-```
-3. Log out and log back in (or restart your Mac)
-
-This will keep the menu bar permanently hidden. If you need to access it, you can still do so by pressing **Control + F2** (or Fn + Control + F2 on some keyboards) to focus on the menu bar.
-
-To reverse this and make the menu bar appear on hover again, use:
-```
-defaults delete NSGlobalDomain "_HIHideMenuBar"
